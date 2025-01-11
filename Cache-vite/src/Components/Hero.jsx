@@ -67,9 +67,14 @@ const Hero = () => {
           </section>
         </div>
         <div className="absolute bottom-6 w-full flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 px-4">
+        <a href="/menu" className="text-white">
           <button className="bg-red-600 text-white font-medium py-2 px-6 rounded shadow-md border-2 border-transparent hover:bg-red-700 hover:shadow-red-600 hover:border-red-600 transition duration-300">
             View Menu
-          </button>
+          </button></a>
+          <a href="/menu" className="text-white">
+          <button className="bg-red-600 text-white font-medium py-2 px-6 rounded shadow-md border-2 border-transparent hover:bg-red-700 hover:shadow-red-600 hover:border-red-600 transition duration-300">
+            Book Table
+          </button></a>
         </div>
       </div>
     </>
