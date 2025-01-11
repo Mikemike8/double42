@@ -46,7 +46,7 @@ const Hero = () => {
                 <li>
                   <a
                     href="/home"
-                    data- aos-delay="100"
+                    data-aos-delay="100"
                     className="hover:text-red-600 text-gray-300"
                   >
                     Home
@@ -67,11 +67,9 @@ const Hero = () => {
           </section>
         </div>
         <div className="absolute bottom-6 w-full flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 px-4">
-        <button className="bg-red-600 text-white font-medium py-2 px-6 rounded shadow-md border-2 border-transparent hover:bg-red-700 hover:shadow-red-600 hover:border-red-600 transition duration-300">
-  <a href="/menu" className="hover:text-gray-300 text-white">
-    Menu
-  </a>
-</button>
+          <button className="bg-red-600 text-white font-medium py-2 px-6 rounded shadow-md border-2 border-transparent hover:bg-red-700 hover:shadow-red-600 hover:border-red-600 transition duration-300">
+            View Menu
+          </button>
         </div>
       </div>
     </>
