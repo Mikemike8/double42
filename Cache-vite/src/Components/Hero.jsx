@@ -42,7 +42,7 @@ const Hero = () => {
               </a>
             </div>
             <nav className="font-inconsolata font-semibold sm:flex-row text-base sm:text-sm md:text-md lg:text-lg xl:text-xl mt-4 sm:mt-0">
-  <ul className="flex flex-row sm:flex-row items-center space-y-3 sm:space-y-0 sm:space-x-12">
+  <ul className="flex sm:flex-row items-center space-x-4 sm:space-x-12">
     <li>
       <a
         href="/home"
