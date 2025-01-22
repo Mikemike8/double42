@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import MailchimpForm from "./Mailchimp";
+import roomcash from '../assets/roomcash.png';
 
 export default function OnlyFoot() {
   return (
@@ -50,7 +51,7 @@ export default function OnlyFoot() {
   {/* Image Above Address */}
   <div className="mt-8">
     <img
-      src="src/assets/roomcash.png"  // Replace with your actual image path
+      src={roomcash} // Replace with your actual image path
       alt="Urban Upscale Restaurant"
       className="w-full max-w-xs mx-auto rounded-lg  h-32 md:h-40 lg:h-48 shadow-md"
     />
