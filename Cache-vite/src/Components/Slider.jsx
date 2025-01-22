@@ -41,7 +41,7 @@ const Slider = () => {
 
       <div className="w-full h-[auto] overflow-hidden">
         <img
-          src="/src/assets/lambchops.png"
+          src="/src/assets/steak.png"
           alt="Lambchops"
           className="w-full h-[100%] object-cover shadow-md rounded-lg transition-transform duration-500 hover:scale-105 hover:shadow-2xl"
         />
