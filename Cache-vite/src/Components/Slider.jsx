@@ -9,7 +9,7 @@ import roomsmoke from '../assets/roomsmoke.png';
 const Slider = () => {
   return (
     <div
-      data-aos="fade-left"
+     
       className="flex flex-col lg:flex-row gap-8 items-center justify-between"
     >
       {/* Text Section */}
@@ -32,7 +32,7 @@ const Slider = () => {
       </div>
 
       {/* Images Section */}
-      <div className="mt-4 w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-8">
+      <div  data-aos="fade-left"  className="mt-4 w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-8">
         {/* Image 1 */}
         <div className="w-full h-[auto] overflow-hidden">
           <img
