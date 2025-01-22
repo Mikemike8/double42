@@ -28,20 +28,22 @@ export default function OnlyFoot() {
             Hours
           </h3>
           <p className="text-gray-900 dark:text-gray-300 text-sm font-inconsolata">
-            Monday - Thursday | 4:00pm - 11:00pm
+          Tuesday - Thursday | Lunch: 11:00am - 3:00pm | Dinner: 5:00pm - 10:00pm
           </p>
           <p className="text-gray-900 dark:text-gray-300 text-sm font-inconsolata">
-            Friday & Saturday | 4:00pm - 1:00am
+          Saturday | Brunch: 11:00am - 3:00pm | Dinner: 5:00pm - 12:00am
           </p>
           <p className="text-gray-900 dark:text-gray-300 text-sm font-inconsolata">
-            Sunday | Closed
+          Sunday | Brunch: 11:00am - 3:00pm | Dinner: 5:00pm - 10:00pm 
           </p>
-
+          <p className="text-gray-900 dark:text-gray-300 text-sm font-inconsolata">
+          Monday | Closed
+          </p>
           <h3 className="text-gray-900 dark:text-gray-300 text-lg font-inconsolata">
             Contact Us
           </h3>
           <p className="text-gray-900 dark:text-gray-300 text-sm font-inconsolata">
-            901-249-7594
+            901-632-1428
           </p>
           <p className="text-gray-900 dark:text-gray-300 text-sm font-inconsolata">
             Cache42Mem@gmail.com
