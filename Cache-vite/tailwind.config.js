@@ -1,9 +1,9 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+// Use ESM syntax if your project is set to "module"
+export default {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-  darkMode: "class", // Enable dark mode using class
+  darkMode: "class",
   theme: {
     extend: {
       keyframes: {
