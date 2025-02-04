@@ -18,7 +18,7 @@ const Hero = () => {
         }}
       >
         <div className="absolute inset-0 "></div>
-        <div className="absolute inset-0 flex flex-col items-center p-4">
+        <div className="absolute inset-0 flex flex-col items-center ">
           <section
             data-aos="fade"
             data-aos-delay="100"
@@ -33,7 +33,7 @@ const Hero = () => {
               <a href="/">
                 <img
                   src={cacheLogo}
-                  className="cursor-pointer w-16 h-14 md:w-20 md:h-16 object-cover"
+                  class="cursor-pointer w-16 h-14 sm:w-20 sm:h-16 md:w-24 md:h-20 lg:w-28 lg:h-24 xl:w-32 xl:h-28 2xl:w-36 2xl:h-32 object-cover"
                   alt="Logo"
                   width="80"
                   height="60"
